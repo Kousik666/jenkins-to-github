@@ -1,11 +1,20 @@
-node {
-          stage('Build')  {
-                   //
-            }
-            stage('Tester')  {
-                     //
-            }
-             stage('release')  {
-                       //
-            }
-   }
+pipeline {
+        agent any
+        stages  {
+                stages('devops class')   {
+                          steps   {
+                                     //   
+                        }
+                  }
+                  stages('tester')   {
+                          steps   {
+                                     //   
+                         }
+                  } 
+                   stages('tester')   {
+                          steps   {
+                                     //   
+                         }
+                  } 
+           }
+}
