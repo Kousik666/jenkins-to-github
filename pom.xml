@@ -11,7 +11,7 @@ pipeline {
                                      //   
                          }
                   } 
-                   stages('tester')   {
+                   stages('release')   {
                           steps   {
                                      //   
                          }
